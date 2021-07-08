@@ -1,5 +1,4 @@
-〽️ AutoRclone
-AutoRclone is a python script built do copy google drives files and folders.
+〽️ AutoRclone is a python script built do copy google drives files and folders.
 
 
 
