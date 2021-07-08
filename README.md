@@ -34,9 +34,11 @@ run :
 After executing the code, follow the instructions...
 
 Now, to get the email adresses of the service accounts, there is multiple ways to do it :
+
 Windows users
 > Open PowerShell and cd into folder the where you have the sa (the .json files)<br>
 > Run : $emails = Get-ChildItem .\**.json |Get-Content -Raw |ConvertFrom-Json |Select -ExpandProperty client_email >>emails.txt<br>
+
 Linux / MacOs users
 > Run : grep -oPh '"client_email": "\K[^"]+' *.json > emails.txt<br>
 
