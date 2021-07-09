@@ -1,18 +1,17 @@
 # auto rclone
 #
-# Author Telegram https://t.me/CodyDoby
-# Inbox  codyd@qq.com
+# Author Telegram https://t.me/edwincitox
+# Author Inbox niwde.2580@gmail.com
 #
 # can copy from
 # - [x] publicly shared folder to Team Drive
 # - [x] Team Drive to Team Drive
-# - [ ] publicly shared folder to publicly shared folder (with write privilege)
-# - [ ] Team Drive to publicly shared folder
-#   `python3 .\rclone_sa_magic.py -s SourceID -d DestinationID -dp DestinationPathName -b 10`
-#
+# - [x] publicly shared folder to publicly shared folder (with write privilege)
+# - [x] Team Drive to publicly shared folder
 # - [x] local to Team Drive
 # - [ ] local to private folder
 # - [ ] private folder to any (think service accounts cannot do anything about private folder)
+#   `python3 .\autorclone.py -s SourceID -d DestinationID -b 10 -e 100`
 #
 from __future__ import print_function
 import argparse
